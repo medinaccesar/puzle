@@ -53,11 +53,11 @@ Nombre del archivo fuente:   f_5x5_20230226_212228.txt
  python puzzle.py -d DIM [-h] [--version]
 ``` 
 
-### Para resolver un puzle, su archivo fuente debe estar en la carpeta ./rec y debe estar referenciado en el archivo de configuración, luego simplemente se ejecuta:
+## Para resolver un puzle, su archivo fuente debe estar en la carpeta ./rec y debe estar referenciado en el archivo de configuración, luego simplemente se ejecuta:
 ```
  python puzzle.py 
 ``` 
-### Para crear nuevos puzles se hace con el parámetro -d seguido de la dimensión:
+## Para crear nuevos puzles se hace con el parámetro -d seguido de la dimensión:
 ```
  python puzzle.py -d DIM 
 ``` 
