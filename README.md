@@ -1,7 +1,7 @@
 # puzle
 Solución a un tipo de rompecabezas numérico.
 
-Las piezas del rompecabezas tienen cuatro lados, son las formas del mismo y están representadas por un número entero positivo. Las formas con igual número encajan entre ellas. Una pieza puede rotarse para encajar, pero no voltearse, las piezas tienen una cara válida. El número cero representa el borde del rompecabezas. Una pieza podría ser 0 2 8 4. El primer número es el lado izquierdo, el segundo es el lado de arriba, el tercero es el lado derecho y por último el cuarto es el lado de abajo.                                      
+Las piezas del rompecabezas tienen cuatro lados, son las formas del mismo y están representadas por un número entero positivo. Las formas con igual número encajan entre ellas. Una pieza puede rotarse para encajar, pero no voltearse, las piezas tienen una cara válida. El número cero representa el borde del rompecabezas. Una pieza podría ser 0 2 8 4. El primer número es el lado izquierdo, el segundo es el lado superior, el tercero es el lado derecho y por último el cuarto es el lado inferior.                                      
                                        
 Por ejemplo la pieza 0 2 8 4  sería 
 ```
