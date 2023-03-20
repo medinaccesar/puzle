@@ -54,7 +54,7 @@ Nombre del archivo fuente:   f_5x5_20230226_212228.txt
 ``` 
 
 ## Resolver un puzle 
-Su archivo fuente debe estar en la carpeta ./rec y debe estar referenciado en el archivo de configuración, luego simplemente se ejecuta:
+Su archivo fuente debe estar en la carpeta ./rec y debe estar referenciado en el archivo de Constantes, luego simplemente se ejecuta:
 ```
  python puzzle.py 
 ``` 
