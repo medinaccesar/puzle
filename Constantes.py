@@ -22,7 +22,7 @@ class Configuracion:
 
     # Tipo de estrategia de resolución elegida:
     # ESTRATEGIA = ESTRATEGIA_MARCOS
-    # ESTRATEGIA = CAMINOS
+    # ESTRATEGIA = ESTRATEGIA_CAMINOS
     ESTRATEGIA = ESTRATEGIA_SECUENCIAL
 
     # Los recursos están en la carpeta rec

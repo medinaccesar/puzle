@@ -50,7 +50,7 @@ Nombre del archivo fuente:   f_5x5_20230226_212228.txt
 ## Uso
 
 ```
- python puzzle.py -d DIM [-h] [--version]
+ python puzzle.py [-d DIM] [-h] [--version]
 ``` 
 
 ## Resolver un puzle 
