@@ -197,7 +197,7 @@ class PuzzleManager(metaclass=ABCMeta):
             totalIntentosPermitido = self.intentos
         print('¡ÉXITO!', 'MÚM. INTENT.', intentos, 'de',
               totalIntentosPermitido, ' intentos permitidos.')
-        print('Máx. intent. posibles por fuerza bruta:',
+        print('Máx. intentos posibles por fuerza bruta:',
               factorial(self.dimensiones[0]*self.dimensiones[1]))
         return
 

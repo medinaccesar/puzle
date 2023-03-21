@@ -27,10 +27,10 @@ class MotorSecuencial(PuzzleManager):
                 self.dibujarTapiz()
                 representarProgreso = 0
 
-            piezaPosibleColocada = False
+            estaPiezaPosibleColocada = False
             continuar = True
 
-            while (continuar and not piezaPosibleColocada):  # si quedan posibilidades
+            while (continuar and not estaPiezaPosibleColocada):  # si quedan posibilidades
 
                 pos = len(self.matrizPosiblidades[x][y])-1
                 if (pos < 0):
@@ -43,17 +43,17 @@ class MotorSecuencial(PuzzleManager):
                     esUltima = self.colocarPieza(x, y, nPiezaPosible)
                     if conf.COMENTARIOS:
                         print('Se coloca posible', nPiezaPosible)
-                    piezaPosibleColocada = True
+                    estaPiezaPosibleColocada = True
                     continuar = False
 
                 else:
                     if conf.COMENTARIOS:
                         print(intentos, 'Se quita posible', nPiezaPosible)
                     self.matrizPosiblidades[x][y].remove(nPiezaPosible)
-                    if (len(self.matrizPosiblidades[x][y]) == 0 or (len(self.matrizPosiblidades[x][y]) == 1 and self.matrizPosiblidades[x][y][0] == None)):
+                    if (len(self.matrizPosiblidades[x][y]) == 0): 
                         self.setPosibilidades(x, y, [None])
                         continuar = False
-            if (not piezaPosibleColocada):
+            if (not estaPiezaPosibleColocada):
 
                 tienePosiblesTresFormasiguales, nGiros = self.tienePosiblesTresFormasIguales(
                     x, y)
@@ -172,8 +172,7 @@ class MotorSecuencial(PuzzleManager):
             nPiezaAnterior = self.tapiz[x][y-1]
             nLado = 2
             if conf.COMENTARIOS:
-                print(nPiezaAnterior, x, y)
-            if conf.COMENTARIOS:
+                print(nPiezaAnterior, x, y)            
                 self.dibujarTapiz()
             posibilidadesAnterior = self.formas[self.getFormaPieza(
                 nPiezaAnterior, nLado)]
