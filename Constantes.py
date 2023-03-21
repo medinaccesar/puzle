@@ -4,7 +4,7 @@ class Configuracion:
 
     __slots__ = ()
     NOMBRE_AP = 'Rompecabezas numérico'
-    VERSION = 1.0
+    VERSION = '1.0.1'
     CREDITOS = 'César Medina'
 
     # Estrategias de resolución planteadas:
